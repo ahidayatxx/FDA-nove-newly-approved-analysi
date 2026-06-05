@@ -9,6 +9,7 @@ This project compiles the tools, scripts, raw data, and finalized regulatory rep
 ```
 FDA-nove-newly-approved-analysis/
 ├── README.md                                    # This project overview
+├── FDA_Approved_Innovative_Drugs_2025_Report.md    # Chronological list and deep dives of FY 2025 approvals
 ├── FDA_Approved_Innovative_Drugs_H1_2026_Report.md # Chronological list and deep dives of H1 2026 approvals
 ├── pipeline.py                                  # Automated drug aggregator pipeline script
 ├── data/                                        # Subfolder containing raw JSON data
@@ -27,6 +28,7 @@ FDA-nove-newly-approved-analysis/
 ## 📄 Core Project Assets
 
 ### 1. Reports
+*   **[FDA_Approved_Innovative_Drugs_2025_Report.md](file:///Users/ahmadhidayat/claude-code/projects/FDA-nove-newly-approved-analysis/FDA_Approved_Innovative_Drugs_2025_Report.md)**: A chronological analysis of the 2025 novel approvals cohort, highlighting first-in-class non-opioid pain treatments (Journavx), gene therapies (Waskyra, Encelto), and oral/injectable hereditary angioedema therapies.
 *   **[FDA_Approved_Innovative_Drugs_H1_2026_Report.md](file:///Users/ahmadhidayat/claude-code/projects/FDA-nove-newly-approved-analysis/FDA_Approved_Innovative_Drugs_H1_2026_Report.md)**: A chronological analysis of the first semester of 2026 novel approvals, highlighting advanced gene therapies (Otarmeni, Kresladi), weight management (Foundayo), post-exposure COVID-19 prophylaxis (Xocova), and chronic hepatitis delta (Hepcludex).
 *   **[example/Ensitrelvir_International_Regulatory_Review_Report.md](file:///Users/ahmadhidayat/claude-code/projects/FDA-nove-newly-approved-analysis/example/Ensitrelvir_International_Regulatory_Review_Report.md)**: A template-driven regulatory review report for Ensitrelvir (Xocova) as post-exposure prophylaxis for COVID-19.
 *   **[example/bulevirtide-2026-05-22X2026-06-05.md](file:///Users/ahmadhidayat/claude-code/projects/FDA-nove-newly-approved-analysis/example/bulevirtide-2026-05-22X2026-06-05.md)**: A template-driven, APA 7th-styled regulatory review report built for non-US international health authorities considering bulevirtide marketing authorization.
