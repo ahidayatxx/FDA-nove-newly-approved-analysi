@@ -1,0 +1,21 @@
+{
+  "studies": [
+    {
+      "protocolSection": {
+        "identificationModule": {
+          "nctId": "NCT07200908",
+          "briefTitle": "A Trial Evaluating Brelovitug (BJT-778) vs Bulevirtide for the Treatment of Chronic Hepatitis Delta Infection (AZURE-2)"
+        }
+      }
+    },
+    {
+      "protocolSection": {
+        "identificationModule": {
+          "nctId": "NCT07429864",
+          "briefTitle": "Changes in Bile Acids and Microbiota in Patients With Hepatitis D Treated With Bulvertide"
+        }
+      }
+    }
+  ],
+  "nextPageToken": "ZVJj7o2Elu8o3lp1RoCnurbumpOQJJxuYvKi3vwW"
+}

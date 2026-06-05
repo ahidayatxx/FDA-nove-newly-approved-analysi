@@ -1,0 +1,833 @@
+{
+  "metadata": {
+    "generic_name": "bulevirtide",
+    "brand_name": "Hepcludex",
+    "approval_date": "2026-05-22",
+    "regulation_center": "CDER",
+    "drug_type": "BLA",
+    "indication": "Chronic hepatitis delta virus (HDV) infection",
+    "sponsor": "Gilead Sciences",
+    "pipeline_date": "2026-06-05"
+  },
+  "clinical_trials": [
+    {
+      "protocolSection": {
+        "identificationModule": {
+          "nctId": "NCT07491848",
+          "briefTitle": "Oral-Periodontal Evaluation and Assessment of Oral Fluid Biomarkers in Patients With Hepatitis B+D"
+        },
+        "statusModule": {
+          "overallStatus": "RECRUITING"
+        },
+        "descriptionModule": {
+          "briefSummary": "Periodontal disease is a chronic inflammatory condition associated with systemic diseases, highlighting the concept of periodontal medicine. This study aims to investigate the relationship between periodontal inflammation, oral lesions, and hepatitis B+D infection, with or without bulevirtide treatment. Oral-periodontal clinical parameters and targeted inflammatory biomarkers in saliva and gingival crevicular fluid will be evaluated in three groups: patients with hepatitis B+D receiving bulevirtide, patients with hepatitis B+D not receiving bulevirtide, and healthy controls."
+        },
+        "designModule": {},
+        "armsInterventionsModule": {
+          "armGroups": [
+            {
+              "label": "Hepatitis B+D - Bulevirtide Treatment",
+              "description": "Adult patients diagnosed with hepatitis B and D co-infection who are receiving bulevirtide therapy as part of their routine clinical management. Participants will undergo oral-periodontal clinical examination, oral cavity photography, and collection of saliva and gingival crevicular fluid for analysis of inflammatory biomarkers at baseline and after 6 months.",
+              "interventionNames": [
+                "Drug: Bulevirtide"
+              ]
+            },
+            {
+              "label": "Hepatitis B+D - No Bulevirtide Treatment",
+              "description": "Adult patients diagnosed with hepatitis B and D co-infection who are not receiving bulevirtide therapy. Participants will undergo oral-periodontal clinical examination, oral cavity photography, and collection of saliva and gingival crevicular fluid for analysis of inflammatory biomarkers at baseline and after 6 months.",
+              "interventionNames": [
+                "Other: No intervention"
+              ]
+            },
+            {
+              "label": "Healthy Control Group",
+              "description": "Systemically healthy adult individuals without hepatitis B or D infection, recruited from the Periodontology Clinic. Participants will undergo oral-periodontal clinical examination and collection of saliva and gingival crevicular fluid for comparison of periodontal clinical parameters and inflammatory biomarkers with the hepatitis B+D groups.",
+              "interventionNames": [
+                "Other: No intervention"
+              ]
+            }
+          ],
+          "interventions": [
+            {
+              "type": "DRUG",
+              "name": "Bulevirtide",
+              "description": "Bulevirtide is an entry inhibitor used for the treatment of hepatitis B and D virus co-infection. In this observational study, patients receiving bulevirtide therapy as part of their routine clinical care will be evaluated for oral-periodontal clinical parameters and inflammatory biomarkers in saliva and gingival crevicular fluid.",
+              "armGroupLabels": [
+                "Hepatitis B+D - Bulevirtide Treatment"
+              ]
+            },
+            {
+              "type": "OTHER",
+              "name": "No intervention",
+              "description": "Patients diagnosed with hepatitis B+D who are not receiving bulevirtide therapy and are evaluated for comparison of oral-periodontal parameters and biomarkers.",
+              "armGroupLabels": [
+                "Hepatitis B+D - No Bulevirtide Treatment"
+              ]
+            },
+            {
+              "type": "OTHER",
+              "name": "No intervention",
+              "description": "Systemically healthy individuals without hepatitis B or D infection serving as the control group for comparison of oral-periodontal parameters and inflammatory biomarkers.",
+              "armGroupLabels": [
+                "Healthy Control Group"
+              ]
+            }
+          ]
+        },
+        "eligibilityModule": {
+          "eligibilityCriteria": "Inclusion Criteria:\n\n* Adults (\u226518 years old) capable of providing informed consent.\n* For Hepatitis B+D groups: confirmed hepatitis B and D co-infection.\n* Bulevirtide group: receiving bulevirtide therapy as prescribed.\n* No Bulevirtide group: not receiving bulevirtide.\n* For Healthy Control group: systemically healthy adults without hepatitis B or D infection.\n* Willingness to undergo oral-periodontal examination, saliva and gingival crevicular fluid collection, and oral cavity photography.\n\nExclusion Criteria:\n\n* Patients with other systemic diseases that could influence periodontal health (e.g., uncontrolled diabetes, autoimmune diseases).\n* Patients currently receiving other experimental therapies that may affect oral or systemic inflammation.\n* Pregnancy or lactation.\n* Inability or unwillingness to provide informed consent.\n* History of oral or periodontal surgery within the last 6 months that could affect measurements.",
+          "healthyVolunteers": true,
+          "sex": "ALL",
+          "minimumAge": "18 Years",
+          "stdAges": [
+            "ADULT",
+            "OLDER_ADULT"
+          ],
+          "studyPopulation": "The study population includes adult patients diagnosed with hepatitis B and D co-infection who are treated and followed at the Gastroenterology Clinic of the Clinical Emergency County Hospital Craiova. These patients will be divided into two cohorts based on treatment status: those receiving bulevirtide therapy as part of routine clinical care and those not receiving bulevirtide treatment.\n\nA third cohort will consist of systemically healthy adult individuals without hepatitis B or D infection, recruited from the Periodontology Clinic of the University of Medicine and Pharmacy of Craiova, who will serve as a control group.\n\nAll participants will undergo oral-periodontal clinical examination, oral cavity documentation, and non-invasive collection of saliva and gingival crevicular fluid for the evaluation of inflammatory biomarkers. Assessments will be performed at baseline and after 6 months.",
+          "samplingMethod": "NON_PROBABILITY_SAMPLE"
+        }
+      }
+    },
+    {
+      "protocolSection": {
+        "identificationModule": {
+          "nctId": "NCT07429864",
+          "briefTitle": "Changes in Bile Acids and Microbiota in Patients With Hepatitis D Treated With Bulvertide"
+        },
+        "statusModule": {
+          "overallStatus": "RECRUITING"
+        },
+        "descriptionModule": {
+          "briefSummary": "HDV is an RNA virus that infects only in the presence of HBV, affecting about 13% of HBsAg carriers. In Italy, prevalence ranges from 3.2% to 9.3%. It increases the risk of cirrhosis, fulminant hepatitis, and HCC, particularly in high-risk groups (HIV, HCV, drug users, dialysis patients). Until 2020, pegIFN was the only therapy; since 2022, bulevirtide (BLV) has been available, blocking viral entry into hepatocytes and reducing HDV RNA and liver stiffness, with efficacy in 45-48% of patients, though the optimal treatment duration remains uncertain. The gut microbiota and bile acids also play a role in fibrosis and cirrhosis progression: dysbiosis, typical in cirrhotic patients, alters bile acid metabolism and increases intrahepatic toxicity."
+        },
+        "designModule": {},
+        "eligibilityModule": {
+          "eligibilityCriteria": "Inclusion Criteria:\n\n* Patients with chronic HDV-related hepatitis or compensated liver cirrhosis (Child-Pugh class A)\n* Positive HDV RNA within the 24 weeks prior to enrollment\n* Ongoing antiviral therapy for HBV at the time of enrollment\n* First prescription of Bulevirtide 2 mg issued within 30 days prior to enrollment\n* Caucasian ethnicity\n* Age \u226518 years\n* Normocaloric omnivorous diet\n* No intake of antibiotics, probiotics, or prebiotics in the month prior to enrollment\n* Signed informed consent\n\nExclusion Criteria:\n\n* Decompensated liver cirrhosis (Child-Pugh Score B or C)\n* Patients without HBV-HDV-related infection/hepatitis/cirrhosis\n* Age \u226418 years\n* Pregnant or breastfeeding women\n* Concomitant diseases with short life expectancy (solid or hematologic neoplasms, heart failure NYHA III/IV, COPD GOLD C-D)\n* Conditions (celiac disease, chronic inflammatory bowel diseases) or use of medications (antibiotics, probiotics, prebiotics) capable of altering gut microbiota composition",
+          "healthyVolunteers": false,
+          "sex": "ALL",
+          "minimumAge": "18 Years",
+          "stdAges": [
+            "ADULT",
+            "OLDER_ADULT"
+          ],
+          "studyPopulation": "Patients with chronic hepatitis or compensated liver cirrhosis (Child-Pugh Score A) related to HBV-HDV, at the time of the first prescription of BLV 2 mg, will be enrolled.",
+          "samplingMethod": "PROBABILITY_SAMPLE"
+        }
+      }
+    },
+    {
+      "protocolSection": {
+        "identificationModule": {
+          "nctId": "NCT05928000",
+          "briefTitle": "HEllenic Multicenter ReAl-life CLInical Study for Bulevirtide Therapy in Chronic Hepatitis D: HERACLIS-BLV"
+        },
+        "statusModule": {
+          "overallStatus": "UNKNOWN"
+        },
+        "descriptionModule": {
+          "briefSummary": "This study aims to assess the efficacy and safety of bulevirtide (BLV) in chronic hepatitis D patients treated in Greek liver centers."
+        },
+        "designModule": {},
+        "armsInterventionsModule": {
+          "armGroups": [
+            {
+              "label": "BLV-treated patients",
+              "description": "All patients treated with daily Bulevirtide (BLV) subcutaneous injections of 2 mg, with or without concomitant use of a nucleos(t)ide analogue. Patients with concomitant use of pegylated interferon-alfa can be included.",
+              "interventionNames": [
+                "Drug: Bulevirtide"
+              ]
+            }
+          ],
+          "interventions": [
+            {
+              "type": "DRUG",
+              "name": "Bulevirtide",
+              "description": "BulevIrtide treatment in patients with chronic hepatitis D",
+              "armGroupLabels": [
+                "BLV-treated patients"
+              ],
+              "otherNames": [
+                "Entecavir",
+                "Tenofovir",
+                "Pegasys"
+              ]
+            }
+          ]
+        },
+        "eligibilityModule": {
+          "eligibilityCriteria": "Inclusion Criteria:\n\n* All adult (\\>16 years old) patients with chronic hepatitis D followed at any of the participating centers\n* Start of BLV treatment before the approval of the study protocol.\n* Any patient with or without concomitant use of a nucleos(t)ide analogue. Patients with concomitant use of pegylated interferon-alfa can be included.\n\nExclusion Criteria:\n\n* Any patient with chronic hepatitis D who started BLV after the start of the study protocol",
+          "healthyVolunteers": false,
+          "sex": "ALL",
+          "minimumAge": "16 Years",
+          "maximumAge": "80 Years",
+          "stdAges": [
+            "CHILD",
+            "ADULT",
+            "OLDER_ADULT"
+          ],
+          "studyPopulation": "This study will include all adult (\\>16 years old) patients with chronic hepatitis D followed at any of the participating centers who started BLV before the approval of the study protocol. Thus, the decision to use BLV will not be affected by the patient enrollment in the study,",
+          "samplingMethod": "NON_PROBABILITY_SAMPLE"
+        }
+      }
+    },
+    {
+      "protocolSection": {
+        "identificationModule": {
+          "nctId": "NCT05718700",
+          "briefTitle": "Study of Bulevirtide in Participants With Chronic Hepatitis D Infection"
+        },
+        "statusModule": {
+          "overallStatus": "ACTIVE_NOT_RECRUITING"
+        },
+        "descriptionModule": {
+          "briefSummary": "The main goal of this study is to collect post marketing data from patients with chronic hepatitis D virus (HDV) infection who are treated with bulevirtide to describe the long-term effects of bulevirtide treatment and evaluate the safety of participants treated with bulevirtide."
+        },
+        "designModule": {},
+        "armsInterventionsModule": {
+          "armGroups": [
+            {
+              "label": "Bulevirtide (previously participated in Study MYR-Reg-2)",
+              "description": "Participants who are currently receiving bulevirtide (BLV) according to the approved label and have participated in Study MYR-Reg-02.",
+              "interventionNames": [
+                "Drug: Bulevirtide"
+              ]
+            },
+            {
+              "label": "Bulevirtide",
+              "description": "Participants who are scheduled to receive BLV according to the approved label.",
+              "interventionNames": [
+                "Drug: Bulevirtide"
+              ]
+            }
+          ],
+          "interventions": [
+            {
+              "type": "DRUG",
+              "name": "Bulevirtide",
+              "description": "Administered via subcutaneous (SC) injections",
+              "armGroupLabels": [
+                "Bulevirtide",
+                "Bulevirtide (previously participated in Study MYR-Reg-2)"
+              ],
+              "otherNames": [
+                "Hepcludex\u00ae"
+              ]
+            }
+          ]
+        },
+        "eligibilityModule": {
+          "eligibilityCriteria": "Key Inclusion Criteria:\n\n* Individuals who have been diagnosed with chronic hepatitis D virus (HDV) infection for at least 6 months before study enrollment, confirmed by respective documentation in the individuals' medical records.\n* Must have the ability to understand and sign a written informed consent form, which must be obtained prior to initiation of study procedures.\n* Must be willing and able to comply with the visit schedule and study requirements.\n* Cohort 1 only: Must have participated in study MYR-Reg-02.\n* Cohort 2 only: Individuals scheduled to receive bulevirtide (BLV) according to the approved label or for whom the decision to start treatment with BLV according to the approved label has been made and treatment initiation is planned.\n\nKey Exclusion Criteria:\n\n* Individuals currently enrolled in BLV clinical treatment studies and/or other interventional clinical studies with an investigational agent.\n* History or current presence of clinically significant illness or any other major medical disorder that may interfere with individual follow-up, assessments, or compliance with the protocol.\n* Coinfection with hepatitis C virus (HCV) or human immunodeficiency virus (HIV) (Individuals with HCV antibodies can be enrolled if HCV RNA is negative).\n* Solid organ transplantation.\n* Any history, or current evidence of clinical hepatic decompensation (ie, ascites, encephalopathy, jaundice, or gastrointestinal bleeding (GIB)).\n* Presence of hepatocellular carcinoma (HCC) as evidenced by imaging (eg, ultrasound or computed tomography scan) performed within 4 months prior to Day 1 for individuals with cirrhosis and within 6 months prior to Day 1 for individuals without cirrhosis.\n* Pregnant or breastfeeding females.\n* Individuals with a severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) infection confirmed by a positive polymerase chain reaction test result.\n* Known hypersensitivity or contraindication to BLV or formulation excipients.\n* Individuals who are committed to an institution by virtue of a court or official order.\n* Individuals deemed by the study investigator to be inappropriate for study participation for any reason not otherwise listed. This includes persons dependent on the sponsor, investigator, or trial site.\n\nNote: Other protocol defined Inclusion/Exclusion criteria may apply.",
+          "healthyVolunteers": false,
+          "sex": "ALL",
+          "minimumAge": "18 Years",
+          "stdAges": [
+            "ADULT",
+            "OLDER_ADULT"
+          ],
+          "studyPopulation": "This study will enroll participants who participated in Study MYR-Reg-02 or are scheduled to receive BLV according to the approved product label and not currently enrolled in a clinical treatment study.",
+          "samplingMethod": "NON_PROBABILITY_SAMPLE"
+        }
+      }
+    },
+    {
+      "protocolSection": {
+        "identificationModule": {
+          "nctId": "NCT03852433",
+          "briefTitle": "Study to Assess Efficacy and Safety of Bulevirtide in Combination With Pegylated Interferon Alfa-2a in Participants With Chronic Hepatitis Delta (CHD)"
+        },
+        "statusModule": {
+          "overallStatus": "COMPLETED"
+        },
+        "descriptionModule": {
+          "briefSummary": "The primary objective of this study is to evaluate the efficacy of bulevirtide in combination with pegylated interferon in participants with chronic hepatitis delta (CHD)."
+        },
+        "designModule": {
+          "phases": [
+            "PHASE2"
+          ]
+        },
+        "armsInterventionsModule": {
+          "armGroups": [
+            {
+              "label": "Pegylated Interferon alfa-2a (PEG-IFN alfa)",
+              "type": "ACTIVE_COMPARATOR",
+              "description": "Participants will receive PEG-IFN alfa 180 microgram (mcg) once a week subcutaneously for 48 weeks with additional 48 weeks follow-up.",
+              "interventionNames": [
+                "Drug: Peginterferon Alfa-2a (PEG-IFN alfa)"
+              ]
+            },
+            {
+              "label": "Bulevirtide 2 mg/day + PEG-IFN alfa",
+              "type": "EXPERIMENTAL",
+              "description": "Participants will receive bulevirtide 2 mg once a day subcutaneously incombination with PEG-IFN alfa 180 mcg once a week subcutaneously for 48 weeks followed by bulevirtide 2 mg once a day for 48 weeks and additional 48 weeks follow-up.",
+              "interventionNames": [
+                "Drug: Bulevirtide",
+                "Drug: Peginterferon Alfa-2a (PEG-IFN alfa)"
+              ]
+            },
+            {
+              "label": "Bulevirtide 10 mg/day + PEG-IFN alfa",
+              "type": "EXPERIMENTAL",
+              "description": "Participants will receive bulevirtide 10 mg once a day subcutaneously in combination with PEG-IFN alfa 180 mcg once a week subcutaneously for 48 weeks followed by bulevirtide 10 mg once a day for 48 weeks and additional 48 weeks follow-up.",
+              "interventionNames": [
+                "Drug: Bulevirtide",
+                "Drug: Peginterferon Alfa-2a (PEG-IFN alfa)"
+              ]
+            },
+            {
+              "label": "Bulevirtide 10 mg once a day",
+              "type": "EXPERIMENTAL",
+              "description": "Participants will receive bulevirtide 10 mg once a day subcutaneously for 96 weeks with additional 48 weeks follow-up",
+              "interventionNames": [
+                "Drug: Bulevirtide"
+              ]
+            }
+          ],
+          "interventions": [
+            {
+              "type": "DRUG",
+              "name": "Bulevirtide",
+              "description": "Administered via subcutaneous injections",
+              "armGroupLabels": [
+                "Bulevirtide 10 mg once a day",
+                "Bulevirtide 10 mg/day + PEG-IFN alfa",
+                "Bulevirtide 2 mg/day + PEG-IFN alfa"
+              ],
+              "otherNames": [
+                "Myrcludex B",
+                "Hepcludex\u00ae"
+              ]
+            },
+            {
+              "type": "DRUG",
+              "name": "Peginterferon Alfa-2a (PEG-IFN alfa)",
+              "description": "Administered via subcutaneous injections",
+              "armGroupLabels": [
+                "Bulevirtide 10 mg/day + PEG-IFN alfa",
+                "Bulevirtide 2 mg/day + PEG-IFN alfa",
+                "Pegylated Interferon alfa-2a (PEG-IFN alfa)"
+              ]
+            }
+          ]
+        },
+        "eligibilityModule": {
+          "eligibilityCriteria": "Inclusion Criteria:\n\n* Provision of signed and dated informed consent form.\n* Positive serum hepatitis delta virus (HDV) antibody results or polymerase chain reaction (PCR) results for serum/ plasma HDV ribonucleic acid (RNA )for at least 6 months before screening.\n* Positive PCR results for serum/ plasma HDV RNA at screening.\n* Alanine transaminase level \\>1 x upper limit of normal (ULN), but less than 10 x ULN.\n* Serum albumin \\>28 g/L.\n* Thyroid stimulating hormone (TSH) within normal ranges (including on medication for control of thyroid function)\n* Negative urine pregnancy test for females of childbearing potential.\n* Inclusion criteria for female individuals:\n\n  * Postmenopausal for at least 2 years, or\n  * Surgically sterile (total hysterectomy or bilateral oophorectomy, bilateral tubal ligation, staples, or another type of sterilization), or\n  * Abstinence from heterosexual intercourse throughout the treatment period, or\n  * Willingness to use highly effective contraception (double barrier method or barrier contraception in combination with hormonal or intrauterine contraceptive) throughout the treatment period and for 6 months after the last dose of the study medication.\n* Male individuals must agree to use a highly effective contraception (double barrier method or barrier contraception in combination with hormonal or intrauterine contraceptive used by female partners) and not to donate sperm throughout the treatment period and for 6 months after the last dose of the study medication.\n\nExclusion Criteria:\n\n* Child-Pugh hepatic insufficiency score of B-C or over 6 points. Note: Child-Pugh hepatic insufficiency score of 6 points is allowed. Only individuals with compensated cirrhosis are allowed. Uncomplicated oesophageal varices allowed; individuals with current bleeding or ligation, or history of bleeding or ligation within the last 2 years are excluded.\n* Hepatitis C virus (HCV) or human immunodeficiency virus (HIV) coinfection. Individuals with HCV antibodies can be enrolled, if screening HCV RNA test is negative.\n* Creatinine clearance \\< 60 mL/min as estimated using Cockcroft-Gault formula.\n* Total bilirubin \u2265 34.2 \u00b5mol/L. (Individuals with higher total bilirubin values may be included after the consultation with the Study Medical Monitor, if such elevation can be clearly attributed to Gilbert's syndrome associated with low-grade hyperbilirubinemia.)\n* Evidence of an active or suspected malignancy, or an untreated pre-malignancy disorder, or a history of malignancy within the last 5 years (with the exception of successfully treated carcinoma of the cervix in situ and successfully treated basal cell carcinoma and squamous cell carcinoma not less than 1 year prior to screening \\[and no more than 3 excised skin cancer within the last 5 years prior to screening\\]) or history of hepatic carcinoma.\n* Systemic connective tissue disorders.\n* New York Heart Association (NYHA) class III-IV congestive heart failure.\n* Individuals with uncontrolled arterial hypertension: systolic blood pressure \\> 150 mm Hg and/ or diastolic blood pressure \\> 100 mm Hg at Screening.\n* Previous or unstable concurrent diseases or conditions that prevent individual's enrolment into the study.\n* Individuals with mental disorders or social circumstances that preclude them from following protocol requirements.\n* Current or previous decompensated liver disease, including coagulopathy, hepatic encephalopathy and esophageal varices hemorrhage.\n* One or more additional known primary or secondary causes of liver disease, other than hepatitis B (e.g., alcoholism, autoimmune hepatitis, malignancy with hepatic involvement, hemochromatosis, alpha-1 antitrypsin deficiency, Wilson's Disease, other congenital or metabolic conditions affecting the liver, congestive heart failure or other severe cardiopulmonary disease, etc.). Gilbert's syndrome, a benign disorder associated with low-grade hyperbilirubinemia, will not exclude individauls from participation in this trial. Autoimmune hepatitis stigmata attributed to HDV infection in the opinion of the investigator are allowed.\n* White blood cells (WBC) count \\< 3000 cells/mm\\^3 (\\<1500 if African individuals).\n* Absolute neutrophil count \\< 1500 cells/mm\\^3 (\\<1000 if African individuals).\n* Platelet count \\< 90,000 cells/mm\\^3.\n* Haemoglobin \\< 12 g/dL.\n* Use of prohibited psychotropic agents at Screening.\n* Use of interferons within 6 months before Screening.\n* History of solid organ transplantation.\n* Current alcohol abuse or alcohol abuse within 6 months prior to enrolment in this study; current drug addict or history of drug use within 2 years prior to Screening.\n* History of disease requiring regular use of systemic glucocorticosteroids (inhalative glucocorticosteroids are allowed) or other immunosuppressants.\n* Pregnant or breast-feeding females.\n* Participation in another clinical study with investigational drugs within 30 days prior to randomization.\n* Receipt of bulevirtide previously, e.g. in clinical trials.\n* Inability to follow protocol requirements and undergo all protocol procedures. Note: Individuals with medical contraindication for liver biopsy are allowed to participate in this study. Such individuals will exempt from liver biopsy requirements in this study. Individuals receiving prohibited treatment at screening cannot be included into the study unless this treatment is withdrawn prior to randomization.\n* Contraindications, intolerance or hypersensitivity to interferons alfa, genetically engineered E.coli medications, polyethylene glycol or other components of peginterferon alfa-2\u0430.\n* Presence or history of severe retinopathy, significant diabetic or hypertensive retinopathy.\n* Uncontrolled diabetes mellitus.\n* Uncontrolled cardiovascular disorders within 6 months before screening.\n* History of autoimmune disorder (e.g. myositis, hepatitis, thrombotic thrombocytopenic purpura, idiopathic thrombocytopenic purpura, severe psoriasis, rheumatoid arthritis, interstitial nephritis, thyroiditis, and systemic lupus erythematosus)\n* Presence or history of significant psychiatric disorder (e.g. severe depression, suicide attempt, severe neurosis or cognitive disorder).\n* Presence or history of chronic lung disease with respiratory malfunction.",
+          "healthyVolunteers": false,
+          "sex": "ALL",
+          "minimumAge": "18 Years",
+          "maximumAge": "65 Years",
+          "stdAges": [
+            "ADULT",
+            "OLDER_ADULT"
+          ]
+        }
+      }
+    },
+    {
+      "protocolSection": {
+        "identificationModule": {
+          "nctId": "NCT06121427",
+          "briefTitle": "Incidence of Viral Hepatitis D Relapses Upon Discontinuation of Bulevirtide in Patients With Chronic Hepatitis D and Negative HDV RNA"
+        },
+        "statusModule": {
+          "overallStatus": "COMPLETED"
+        },
+        "descriptionModule": {
+          "briefSummary": "This observational study will be conducted in patients with chronic co-infection with hepatitis B and D viruses, with negative PCR for HDV RNA in peripheral blood and no signs of active liver inflammation according to blood chemistry parameters, receiving background therapy with bulevirtide for more than 48 weeks and liver biopsy performed or prescribed to be performed as part of routine practice.\n\nAfter the patient has signed the Informed Consent, a portion of the liver biopsy collected as part of routine practice will be sent to the laboratory for PCR testing for HDV RNA, background therapy with bulevirtide will be interrupted, and the patient will be observed in the clinic in accordance with routine medical practice, but at least once times every 4 weeks, for timely detection of relapse of the hepatitis D and initiation of antiviral therapy. Once a relapse of viral hepatitis D is determined via the PCR HDV RNA, the patient's participation in the study will be terminated.\n\nThe collected data will be analyzed to assess the probability of relapse-free over time. Separate tests will also be conducted for subgroups of patients based on covariates such as duration of previous background therapy with bulevirtide, duration of HDV suppression, use of any other concomitant antiviral therapy during bulevirtide treatment."
+        },
+        "designModule": {},
+        "eligibilityModule": {
+          "eligibilityCriteria": "Inclusion Criteria:\n\n* Informed consent of the patient to participate in the study, collect and use data\n* Age 18 or older\n* Background therapy with bulevirtide for at least 48 weeks\n* Negative qualitative PCR test for RNA of viral hepatitis D in peripheral blood before inclusion in the study\n* No active liver inflammation\n* Liver biopsy performed as part of routine practice (no older than 3 weeks before inclusion in the study) or prescribed biopsy to be performed before bulevirtide interruption\n\nExclusion Criteria:\n\n* Liver damage not related to viral hepatitis B and D - autoimmune hepatitis, drug or alcohol liver damage, Wilson-Konovalov disease, etc.\n* Co-infection with hepatitis C virus\n* Patients receiving HBV and HDV therapy not in accordance with standard practice or violations of the Instructions for the medical use of the drug/s\n* Moderate/severe renal/liver dysfunction\n* Lack of informed consent",
+          "healthyVolunteers": false,
+          "sex": "ALL",
+          "minimumAge": "18 Years",
+          "stdAges": [
+            "ADULT",
+            "OLDER_ADULT"
+          ],
+          "studyPopulation": "Patients with chronic co-infection with hepatitis B and D viruses with negative PCR HDV RNA who meet inclusion/exclusion criteria",
+          "samplingMethod": "NON_PROBABILITY_SAMPLE"
+        }
+      }
+    },
+    {
+      "protocolSection": {
+        "identificationModule": {
+          "nctId": "NCT06504485",
+          "briefTitle": "Immunological and Virological Characterization of Patients With Chronic HBV-HDV Infection: Outcomes and Response to Bulevirtide Treatment"
+        },
+        "statusModule": {
+          "overallStatus": "RECRUITING"
+        },
+        "descriptionModule": {
+          "briefSummary": "Pharmacological, single-center, non-profit observational study.\n\nThe present study is part of a cooperation project between the SC Gastroenterology and Hepatology, Fondazione IRCCS Ca' Granda Ospedale Maggiore Policlinico (Milan, Italy), the University of Milan, the University of Parma and Rome Tor Vergata, funded under the call for Research Projects of Significant National Interest - 2022 PNRR Call (Prot. P2022WEXP2).\n\nHepatitis D virus (HDV) is a defective RNA virus, which requires the presence of hepatitis B virus (HBV) to infect liver cells and propagate. To date, the mechanisms underlying the accelerated disease progression in the natural history of Delta hepatitis are poorly understood, as is the course of the HDV-specific immune response (CD4 and CD8 T cells). As in chronic HBV and HCV infections, the outcome of chronic HDV infection appears to be dictated primarily by the host immune response, which represents a key determinant for virus control or persistence. For HBV/HDV coinfection, the role of T cells has not been well defined, as suitable animal models are lacking and so far few HDV-specific T cell epitopes have been precisely mapped, mainly limited to HLA-B alleles.\n\nThe study is divided into two substudies (cross-sectional and longitudinal). The primary objective of the cross-sectional study is to calculate the prevalence of HDV-specific T responses in patients with chronic HBV-HDV infection na\u00efve to treatment with Bulevirtide. The primary objective of the longitudinal study is the change in the prevalence of HDV-specific T responses in patients with chronic HBV-HDV infection during treatment with Bulevirtide compared to baseline (pre-treatment)."
+        },
+        "designModule": {},
+        "armsInterventionsModule": {
+          "armGroups": [
+            {
+              "label": "Hepatis Delta naive",
+              "description": "Patients with HDV infection na\u00efve to Bulevirtide therapy"
+            },
+            {
+              "label": "Hepatis Delta in therapy",
+              "description": "Patients with HDV cirrhosis consecutively started on Bulevirtide therapy during the study enrollment period",
+              "interventionNames": [
+                "Drug: Bulevirtide"
+              ]
+            }
+          ],
+          "interventions": [
+            {
+              "type": "DRUG",
+              "name": "Bulevirtide",
+              "description": "dose of 2 mg/day subcutaneously",
+              "armGroupLabels": [
+                "Hepatis Delta in therapy"
+              ]
+            }
+          ]
+        },
+        "eligibilityModule": {
+          "eligibilityCriteria": "Inclusion Criteria:\n\n* 18 years of age or older\n* Ability to understand and sign the informed consent\n* Chronic HDV infection defined by positivity of HBsAg antigen (HBV) and HDV RNA (HBV-HDV co-infection) for at least 6 months at the time of enrollment.\n\nExclusion Criteria:\n\n* Co-infection with other viruses (HCV, HIV)\n* Treatment with immunosuppressive/immunomodulatory drugs\n* Other congenital and/or acquired immunodeficiency conditions",
+          "healthyVolunteers": false,
+          "sex": "ALL",
+          "minimumAge": "18 Years",
+          "stdAges": [
+            "ADULT",
+            "OLDER_ADULT"
+          ],
+          "studyPopulation": "The study will enroll patients co-infected with HBV-HDV (defined by positivity of HDV RNA for at least 6 months) who meet the inclusion criteria and no exclusion criteria",
+          "samplingMethod": "NON_PROBABILITY_SAMPLE"
+        }
+      }
+    },
+    {
+      "protocolSection": {
+        "identificationModule": {
+          "nctId": "NCT07200908",
+          "briefTitle": "A Trial Evaluating Brelovitug (BJT-778) vs Bulevirtide for the Treatment of Chronic Hepatitis Delta Infection (AZURE-2)"
+        },
+        "statusModule": {
+          "overallStatus": "RECRUITING"
+        },
+        "descriptionModule": {
+          "briefSummary": "This is a Phase 3, global, randomized, open-label, multicenter, trial evaluating brelovitug (BJT-778) vs bulevirtide for the treatment of chronic hepatitis delta infection (CHD). The main goal of this study is to test the effectiveness of brelovitug compared to bulevirtide as a long-term treatment in patients with chronic HDV infection."
+        },
+        "designModule": {
+          "phases": [
+            "PHASE3"
+          ]
+        },
+        "armsInterventionsModule": {
+          "armGroups": [
+            {
+              "label": "Brelovitug",
+              "type": "EXPERIMENTAL",
+              "description": "Participants will receive treatment with brelovitug 300 mg once weekly for 96 weeks",
+              "interventionNames": [
+                "Drug: Brelovitug 300 mg"
+              ]
+            },
+            {
+              "label": "Bulevirtide for 48 weeks followed by brelovitug for 48 weeks",
+              "type": "ACTIVE_COMPARATOR",
+              "description": "Participants will receive bulevirtide 2 mg subcutaneously once daily for 48 weeks, followed by brelovitug 300 mg subcutaneously once weekly for the next 48 weeks.",
+              "interventionNames": [
+                "Drug: Bulevirtide 2 mg and Brelovitug - 300 mg"
+              ]
+            }
+          ],
+          "interventions": [
+            {
+              "type": "DRUG",
+              "name": "Brelovitug 300 mg",
+              "description": "Route of administration- Subcutaneous Injection",
+              "armGroupLabels": [
+                "Brelovitug"
+              ],
+              "otherNames": [
+                "BJT-778",
+                "BTG"
+              ]
+            },
+            {
+              "type": "DRUG",
+              "name": "Bulevirtide 2 mg and Brelovitug - 300 mg",
+              "description": "Route of Administration- Subcutaneous Injection",
+              "armGroupLabels": [
+                "Bulevirtide for 48 weeks followed by brelovitug for 48 weeks"
+              ],
+              "otherNames": [
+                "Hepcludex"
+              ]
+            }
+          ]
+        },
+        "eligibilityModule": {
+          "eligibilityCriteria": "Key Inclusion Criteria:\n\n1. Willing and able to provide written informed consent\n2. Chronic HDV infection\n3. HDV RNA \\>500 IU/mL at Screening\n4. ALT \\>ULN at Screening\n5. Willing to take or already taking HBV neucleos(t)ide therapy.\n\nKey Exclusion Criteria:\n\n1. Pregnant or nursing females\n2. Unwilling to comply with contraception requirements during the study\n3. Difficulty with blood collection and/or poor venous access for the purposes of phlebotomy\n4. Clinical hepatic decompensation (i.e., ascites, encephalopathy variceal hemorrhage).\n5. Solid organ or bone marrow transplantation\n6. Presence of other liver disease(s) (non-HBV/HDV), such as nonalcoholic steatohepatitis (NASH), alcohol associated hepatitis, cholestatic liver disease, hepatocellular carcinoma.\n\nNote - Other protocol-defined Inclusion/Exclusion criteria apply.",
+          "healthyVolunteers": false,
+          "sex": "ALL",
+          "minimumAge": "18 Years",
+          "maximumAge": "99 Years",
+          "stdAges": [
+            "ADULT",
+            "OLDER_ADULT"
+          ]
+        }
+      }
+    },
+    {
+      "protocolSection": {
+        "identificationModule": {
+          "nctId": "NCT06603311",
+          "briefTitle": "Finite Treatment of Hepatitis Delta With Bulevirtide: Identification of Biomarkers Associated With Sustained Control of HDV Infection"
+        },
+        "statusModule": {
+          "overallStatus": "ACTIVE_NOT_RECRUITING"
+        },
+        "descriptionModule": {
+          "briefSummary": "Finding biomarkers for stopping bulevirtide treatment of patients with hepatitis delta"
+        },
+        "designModule": {
+          "phases": [
+            "NA"
+          ]
+        },
+        "armsInterventionsModule": {
+          "armGroups": [
+            {
+              "label": "Adults with compensated liver disease and HDV with prior Bulevirtide treatment",
+              "type": "EXPERIMENTAL",
+              "description": "Adults with compensated liver disease who have been treated for chronic HDV infection with bulevirtide (BLV) for at least 48 weeks and reached HDV RNA below 100 IU/ml for at least 24 weeks will finite their BLV treatment. Patients will be followed up for 48 weeks to identify promising biomarkers associated with HDV control after stopping BLV and to evaluate the safety of the novel concept of finite BLV treatment in this group of patients",
+              "interventionNames": [
+                "Other: Stop Treatment with Bulevertide in patients with compensated liver disease and chronic HDV infection"
+              ]
+            }
+          ],
+          "interventions": [
+            {
+              "type": "OTHER",
+              "name": "Stop Treatment with Bulevertide in patients with compensated liver disease and chronic HDV infection",
+              "description": "Stop Treatment with Bulevertide in patients with compensated liver disease and chronic HDV infection who have been treated for at least 48 weeks and reached HDV RNA below 100 IU/ml for at least 24 weeks.",
+              "armGroupLabels": [
+                "Adults with compensated liver disease and HDV with prior Bulevirtide treatment"
+              ]
+            }
+          ]
+        },
+        "eligibilityModule": {
+          "eligibilityCriteria": "Inclusion Criteria:\n\n1. Men, women, inter/diverse\\* aged \u2265 18 years\n2. Signed written informed consent from subject\n3. Chronic hepatitis delta\n4. Stable and continued NUC treatment of the underlying HBV infection\n5. Previous interferon treatment must have stopped at least 6 months before the start of BLV monotherapy\n6. Previous immunosuppressant therapy must have stopped at least 6 months before the start of BLV therapy\n7. BLV treatment for at least 48 weeks\n8. HDV-RNA below 100 IU/ml under BLV treatment for at least 24 weeks. Patients should have had at least 2 tests with HDV-RNA below 100 IU/ml plus one test with HDV-RNA below 100 IU/ml+ at screening.\n9. ALT level below 1.5 fold ULN\n\nExclusion Criteria:\n\n1. Patients with decompensated liver cirrhosis (transient mild deviations in liver function parameters are acceptable at the discretion of the investigator) or history of decompensated liver cirrhosis (patients with minimal perihepatic ascites could be included at the discretion of the investigator)\n2. Hepatocellular carcinoma (HCC)\n3. Thrombocytopenia (platelet count below 90.000/\u00b5l)\n4. Participation in another interventional clinical trial (other investigational drugs or devices at the time of enrolment or within 30 days prior to enrolment)\n5. Any additional medical reason not to stop BLV",
+          "healthyVolunteers": false,
+          "sex": "ALL",
+          "minimumAge": "18 Years",
+          "stdAges": [
+            "ADULT",
+            "OLDER_ADULT"
+          ]
+        }
+      }
+    },
+    {
+      "protocolSection": {
+        "identificationModule": {
+          "nctId": "NCT05962307",
+          "briefTitle": "Efficacy and Safety of Bulevirtide (BLV) Therapy in HDV Chronic Hepatitis (CHD) in Italy"
+        },
+        "statusModule": {
+          "overallStatus": "COMPLETED"
+        },
+        "descriptionModule": {
+          "briefSummary": "Spontaneous, pharmacological observational, no-profit, retrospective, multi-center.\n\nThis study was designed to get a \"real-life\" snapshot across several Italian Hepatology centers. All HDV patients are followed up according to EASL 2017 guidelines. This allows uniformity on the indication for antiviral treatment and management of that antiviral therapy. No off-label medications are used. All data are retrievable from the patient's medical record. In addition, clinical and biochemical data from patients at month 0, 1, 2, 4, 6 and 12 of treatment, and otherwise within the study period, will be collected retrospectively/longitudinally.\n\nThe primary objective of the study is to describe the virological response to BLV in all patients starting BLV therapy, defined as a \\>2 Log decline in HDV-RNA or undetectable HDV-RNA (using the Robogene 2.0 quantitative kit, LLQ \\<6 IU/ml) at month 12 of therapy.\n\nAll patients with active HDV chronic hepatopathy (quantifiable HDV-RNA) who initiated treatment with BLV 2 mg/day during the study period at the S.C. Gastroenterology and Hepatology (Fondazione IRCCS Ca' Granda Ospedale Maggiore Policlinico) and at participating centers, and who met the inclusion criteria and none of the exclusion criteria."
+        },
+        "designModule": {},
+        "armsInterventionsModule": {
+          "armGroups": [
+            {
+              "label": "Hepatis Delta",
+              "description": "Bulevirtide (BLV) at a dose of 2 mg/day subcutaneously",
+              "interventionNames": [
+                "Drug: Bulevirtide"
+              ]
+            }
+          ],
+          "interventions": [
+            {
+              "type": "DRUG",
+              "name": "Bulevirtide",
+              "description": "dose of 2 mg/day subcutaneously",
+              "armGroupLabels": [
+                "Hepatis Delta"
+              ]
+            }
+          ]
+        },
+        "eligibilityModule": {
+          "eligibilityCriteria": "Inclusion Criteria:\n\n* 18 years of age or older\n* Chronic hepatitis delta\n* Compensated cirrhosis HDV related\n* Bulevertide 2 mg/day within December 15, 2020, to December 31, 2022\n\nExclusion Criteria:\n\n\\- HDV-related decompensated cirrhosis (CPT \u22657)",
+          "healthyVolunteers": false,
+          "sex": "ALL",
+          "minimumAge": "18 Years",
+          "stdAges": [
+            "ADULT",
+            "OLDER_ADULT"
+          ],
+          "studyPopulation": "All patients with active HDV chronic hepatopathy (quantifiable HDV-RNA) who initiated treatment with BLV 2 mg/day during the study period at the S.C. Gastroenterology and Hepatology (Fondazione IRCCS Ca' Granda Ospedale Maggiore Policlinico) and at participating centers, and who met the inclusion criteria and none of the exclusion criteria.",
+          "samplingMethod": "NON_PROBABILITY_SAMPLE"
+        }
+      }
+    }
+  ],
+  "pubmed_publications": [
+    {
+      "pmid": "38842520",
+      "title": "Bulevirtide Combined with Pegylated Interferon for Chronic Hepatitis D.",
+      "authors": [
+        "Asselah T",
+        "Chulanov V",
+        "Lampertico P",
+        "Wedemeyer H",
+        "Streinu-Cercel A",
+        "P\u00e2ntea V",
+        "Lazar S",
+        "Placinta G",
+        "Gherlan GS",
+        "Bogomolov P",
+        "Stepanova T",
+        "Morozov V",
+        "Syutkin V",
+        "Sagalova O",
+        "Manuilov D",
+        "Mercier RC",
+        "Ye L",
+        "Da BL",
+        "Chee G",
+        "Lau AH",
+        "Osinusi A",
+        "Bourliere M",
+        "Ratziu V",
+        "Pol S",
+        "Hilleret MN",
+        "Zoulim F"
+      ],
+      "journal": "The New England journal of medicine",
+      "pubdate": "2024 Jul 11",
+      "doi": "10.1056/NEJMoa2314134",
+      "abstract": "BACKGROUND: In a phase 3 trial, bulevirtide monotherapy led to a virologic response in patients with chronic hepatitis D. Pegylated interferon (peginterferon) alfa-2a is recommended by guidelines as an off-label treatment for this disease. The role of combination therapy with bulevirtide and peginterferon alfa-2a, particularly with regard to finite treatment, is unclear.\nMETHODS: In this phase 2b, open-label trial, we randomly assigned patients to receive peginterferon alfa-2a alone (180 \u03bcg per week) for 48 weeks; bulevirtide at a daily dose of 2 mg or 10 mg plus peginterferon alfa-2a (180 \u03bcg per week) for 48 weeks, followed by the same daily dose of bulevirtide for 48 weeks; or bulevirtide at a daily dose of 10 mg alone for 96 weeks. All the patients were followed for 48 weeks after the end of treatment. The primary end point was an undetectable level of hepatitis D virus (HDV) RNA at 24 weeks after the end of treatment. The primary comparison was between the 10-mg bulevirtide plus peginterferon alfa-2a group and the 10-mg bulevirtide monotherapy group.\nRESULTS: A total of 24 patients received peginterferon alfa-2a alone, 50 received 2 mg and 50 received 10 mg of bulevirtide plus "
+    },
+    {
+      "pmid": "32926353",
+      "title": "Bulevirtide: First Approval.",
+      "authors": [
+        "Kang C",
+        "Syed YY"
+      ],
+      "journal": "Drugs",
+      "pubdate": "2020 Oct",
+      "doi": "10.1007/s40265-020-01400-1",
+      "abstract": "Bulevirtide (Hepcludex\u00ae), a first-in-class entry inhibitor, is being developed by MYR GmbH for the treatment of chronic hepatitis delta virus (HDV) and chronic hepatitis B virus (HBV) infections. Bulevirtide was recently approved in the European Union (EU) for the treatment of chronic HDV infection in HDV RNA positive adult patients with compensated liver disease. This article summarizes the milestones in the development of bulevirtide leading to this first approval for chronic HDV."
+    },
+    {
+      "pmid": "37853604",
+      "title": "Bulevirtide and emerging drugs for the treatment of hepatitis D.",
+      "authors": [
+        "Xu HY",
+        "Yang JO",
+        "Chen PH",
+        "Han SB"
+      ],
+      "journal": "Expert opinion on biological therapy",
+      "pubdate": "2023",
+      "doi": "10.1080/14712598.2023.2273260",
+      "abstract": "INTRODUCTION: Hepatitis delta virus (HDV) causes acute and chronic liver disease that requires the co-infection of the Hepatitis B virus and can lead to significant morbidity and mortality. Bulevirtide is a recently introduced entry inhibitor drug that acts on the sodium taurocholate cotransporting peptide, thereby preventing viral entry to target cells in chronic HDV infection. The mainstay of chronic HDV therapy prior to bulevirtide was interferon alpha, which has an undesirable side effect profile.\nAREAS COVERED: We review bulevirtide data from recent clinical trials in Europe and the United States. Challenges to development and implementation of bulevirtide are discussed. Additionally, we review ongoing trials of emerging drugs for HDV, such as pegylated interferon lambda and lonafarnib.\nEXPERT OPINION: Bulevirtide represents a major shift in treatment for chronic HDV, for which there is significant unmet need. Trials that compared bulevirtide in combination with interferon alpha vs interferon alpha monotherapy demonstrated significant increase in virologic response. Overall, treatment with different doses of bulevirtide were comparable. Bulevirtide was generally well tolerated"
+    },
+    {
+      "pmid": "37345876",
+      "title": "A Phase 3, Randomized Trial of Bulevirtide in Chronic Hepatitis D.",
+      "authors": [
+        "Wedemeyer H",
+        "Aleman S",
+        "Brunetto MR",
+        "Blank A",
+        "Andreone P",
+        "Bogomolov P",
+        "Chulanov V",
+        "Mamonova N",
+        "Geyvandova N",
+        "Morozov V",
+        "Sagalova O",
+        "Stepanova T",
+        "Berger A",
+        "Manuilov D",
+        "Suri V",
+        "An Q",
+        "Da B",
+        "Flaherty J",
+        "Osinusi A",
+        "Liu Y",
+        "Merle U",
+        "Schulze Zur Wiesch J",
+        "Zeuzem S",
+        "Ciesek S",
+        "Cornberg M",
+        "Lampertico P",
+        "MYR 301 Study Group"
+      ],
+      "journal": "The New England journal of medicine",
+      "pubdate": "2023 Jul 06",
+      "doi": "10.1056/NEJMoa2213429",
+      "abstract": "BACKGROUND: Coinfection with hepatitis D virus (HDV) accelerates the progression of liver disease associated with chronic hepatitis B. Bulevirtide inhibits the entry of HDV into hepatocytes.\nMETHODS: In this ongoing phase 3 trial, patients with chronic hepatitis D, with or without compensated cirrhosis, were randomly assigned, in a 1:1:1 ratio, to receive bulevirtide subcutaneously at 2 mg per day (2-mg group) or 10 mg per day (10-mg group) for 144 weeks or to receive no treatment for 48 weeks followed by bulevirtide subcutaneously at 10 mg per day for 96 weeks (control group). Patients will complete 96 weeks of additional follow-up after the end of treatment. The primary end point was a combined response at week 48 of an undetectable HDV RNA level, or a level that decreased by at least 2 log10 IU per milliliter from baseline, and normalization of the alanine aminotransferase (ALT) level. The key secondary end point was an undetectable HDV RNA level at week 48, in a comparison between the 2-mg group and the 10-mg group.\nRESULTS: A total of 49 patients were assigned to the 2-mg group, 50 to the 10-mg group, and 51 to the control group. A primary end-point response occurred in 45% of"
+    },
+    {
+      "pmid": "38734383",
+      "title": "Bulevirtide monotherapy in patients with chronic HDV: Efficacy and safety results through week 96 from a phase III randomized trial.",
+      "authors": [
+        "Wedemeyer H",
+        "Aleman S",
+        "Brunetto M",
+        "Blank A",
+        "Andreone P",
+        "Bogomolov P",
+        "Chulanov V",
+        "Mamonova N",
+        "Geyvandova N",
+        "Morozov V",
+        "Sagalova O",
+        "Stepanova T",
+        "Berger A",
+        "Ciesek S",
+        "Manuilov D",
+        "Mercier RC",
+        "Da BL",
+        "Chee GM",
+        "Li M",
+        "Flaherty JF",
+        "Lau AH",
+        "Osinusi A",
+        "Schulze Zur Wiesch J",
+        "Cornberg M",
+        "Zeuzem S",
+        "Lampertico P"
+      ],
+      "journal": "Journal of hepatology",
+      "pubdate": "2024 Oct",
+      "doi": "10.1016/j.jhep.2024.05.001",
+      "abstract": "BACKGROUND & AIMS: Bulevirtide (BLV), a first-in-class entry inhibitor, is approved in Europe for the treatment of chronic hepatitis delta (CHD). BLV monotherapy was superior to delayed treatment at week (W) 48, the primary efficacy endpoint, in the MYR301 study (NCT03852719). Here, we assessed if continued BLV therapy until W96 would improve virologic and biochemical response rates, particularly among patients who did not achieve virologic response at W24.\nMETHODS: In this ongoing, open-label, randomized phase III study, patients with CHD (N\u00a0= 150) were randomized (1:1:1) to treatment with BLV 2\u00a0mg/day (n\u00a0= 49) or 10\u00a0mg/day (n\u00a0= 50), each for 144 weeks, or to delayed treatment for 48 weeks followed by BLV 10\u00a0mg/day for 96 weeks (n\u00a0= 51). Combined response was defined as undetectable hepatitis delta virus (HDV) RNA or a decrease in HDV RNA by \u22652 log10 IU/ml from baseline and alanine aminotransferase (ALT) normalization. Other endpoints included virologic response, ALT normalization, and change in HDV RNA.\nRESULTS: Of 150 patients, 143 (95%) completed 96 weeks of the study. Efficacy responses were maintained and/or improved between W48 and W96, with similar combined, virologic, and "
+    },
+    {
+      "pmid": "41287135",
+      "title": "Bulevirtide Monotherapy or in Combination for Chronic Hepatitis Delta: 2025 Update.",
+      "authors": [
+        "Lampertico P",
+        "Anolli MP",
+        "Steppich K",
+        "Wedemeyer H"
+      ],
+      "journal": "Journal of viral hepatitis",
+      "pubdate": "2025 Dec",
+      "doi": "10.1111/jvh.70056",
+      "abstract": "Chronic hepatitis Delta (CHD) represents the most aggressive form of viral hepatitis. In the latest estimates, published in 2024 by the Polaris Observatory, the overall prevalence of the hepatitis Delta virus (HDV) in Hepatitis B surface antigen (HBsAg)\u2009+\u2009patients was estimated to be 2% worldwide, a lower figure than what was previously estimated to be around 6%-11%. Prevalence figures vary greatly across the globe, with the highest anti-HDV+ prevalence in Mongolia, where it reaches 60% of HBsAg+ individuals. Its clinical manifestations include accelerated progression to cirrhosis, increased risk of hepatic decompensation and heightened incidence of hepatocellular carcinoma (HCC). Notwithstanding the close dependency of HDV on the Hepatitis B virus (HBV), requiring HBsAg for cellular entry and propagation, nucleos(t)ide analogue (NA) therapies do not affect CHD. Ideally, a therapy capable of achieving HBsAg loss would also translate into CHD cure. Monitoring viremia is pivotal in estimating the effectiveness of HDV treatments. Consequently, a \"virological response\" is defined as a reduction of at least 2 logs in HDV RNA or achieving HDV RNA negativity, compared to baseline. Despite"
+    },
+    {
+      "pmid": "36740364",
+      "title": "Bulevirtide-based treatment strategies for chronic hepatitis delta: A review.",
+      "authors": [
+        "Degasperi E",
+        "Anolli MP",
+        "Lampertico P"
+      ],
+      "journal": "Journal of viral hepatitis",
+      "pubdate": "2023 Apr",
+      "doi": "10.1111/jvh.13811",
+      "abstract": "Chronic hepatitis Delta (CHD) is a rare and severe form of chronic viral hepatitis. Until recently, the only therapeutic approach has been the off-label use of a 48\u2009weeks course of PegInterferon alpha (PegIFN\u03b1), that was characterized by suboptimal efficacy and burdened by significant side effects that limited treatment applicability in patients with advanced liver disease. In July 2020, European Medicines Agency (EMA) conditionally approved the entry inhibitor Bulevirtde (BLV) at the dose of 2\u00a0mg/day for the treatment of adult patients with compensated CHD. Efficacy and safety of BLV in CHD have been evaluated in clinical trials either as monotherapy or in combination with PegIFN\u03b1. These results were confirmed by real-life studies, which also evaluated long-term BLV monotherapy in patients with advanced compensated cirrhosis. Notwithstanding these promising results there are still several issues to be addressed, such as the optimal duration of the treatment, the rates of off-therapy responses, as well as the long-term clinical benefits. This review summarizes updated and current literature data about clinical trials and real-life studies with BLV monotherapy and/or in combination "
+    },
+    {
+      "pmid": "35942695",
+      "title": "Bulevirtide for patients with compensated chronic hepatitis delta: A review.",
+      "authors": [
+        "Degasperi E",
+        "Anolli MP",
+        "Lampertico P"
+      ],
+      "journal": "Liver international : official journal of the International Association for the Study of the Liver",
+      "pubdate": "2023 Aug",
+      "doi": "10.1111/liv.15389",
+      "abstract": "Chronic hepatitis delta (CHD) affects approximately 10-20\u00a0million people worldwide and represents the most severe form of chronic viral hepatitis, as it is characterized by high rates of progression to cirrhosis and its complications (end-stage liver disease, hepatocellular carcinoma). In the last 30\u2009years, the only treatment option for CHD has been represented by the off-label administration of Interferon (or Pegylated Interferon)-alpha: antiviral treatment, however, resulted in suboptimal (20-30%) virological response and was burdened by several side effects, de facto contraindicating Interferon (IFN) administration in patients with more advanced liver disease. Recently, Bulevirtide (BLV), a first-in-class HBV-HDV entry inhibitor blocking Na+ -taurocholate co-transporting polypeptide (NTCP), has provided very promising efficacy data in Phase II and Phase III (interim analysis) trials as well as in preliminary real-life reports. In July 2020, BLV has granted conditional approval by EMA for treatment of compensated CHD, at the dose of 2\u00a0mg/day by self-administered subcutaneous injections. In Phase II and Phase III trials, BLV was evaluated at different doses (2 vs. 10\u2009mg/day) for 2"
+    },
+    {
+      "pmid": "36529713",
+      "title": "Beyond bulevirtide: Alternative therapeutic options for the management of hepatitis delta virus.",
+      "authors": [
+        "Asselah T"
+      ],
+      "journal": "Journal of viral hepatitis",
+      "pubdate": "2023 Apr",
+      "doi": "10.1111/jvh.13789",
+      "abstract": "Hepatitis delta virus (HDV) is a small RNA virus which needs Hepatitis B Surface Antigen for its envelope, for entry into hepatocytes and secretion. HDV chronic infection affects around 12\u00a0million people worldwide. HDV infection is believed to be the most severe form of viral hepatitis, with a high risk of developing cirrhosis and hepatocellular carcinoma. Pegylated interferons has been used and recommended by guidelines, although not approved, with low efficacy and poor tolerability. Bulevirtide (entry inhibitor) has been recently conditionally approved by the European Medicines Agency. These treatments have many advantages, but they have also limitations since there are non-responders to these previous therapies. There is an urgent need to develop new drugs. In this article, we review antiviral treatments under development for HDV chronic infection (except bulevirtide reviewed in a specific article), including those in the HBV cure programme, outlining their respective mechanisms-of-action."
+    },
+    {
+      "pmid": "36712949",
+      "title": "Bulevirtide in the Treatment of Hepatitis Delta: Drug Discovery, Clinical Development and Place in Therapy.",
+      "authors": [
+        "Soriano V",
+        "Moreno-Torres V",
+        "Trevi\u00f1o A",
+        "Corral O",
+        "de Mendoza C"
+      ],
+      "journal": "Drug design, development and therapy",
+      "pubdate": "2023",
+      "doi": "10.2147/DDDT.S379964",
+      "abstract": "It has been ten years since the identification of NTCP as the cell surface receptor for HBV and HDV entry into hepatocytes. The search for molecules interfering with the binding of NTCP and HBV/HDV led to design bulevirtide (BLV). This large polypeptide mimics a region of the pre-S1 HBsAg and blocks viral entry by inhibitory competition. BLV was initially tested in cell cultures, animal models and more recently in Phase I-III human trials (called 'MYRS'). As monotherapy or in combination with peginterferon, BLV is well tolerated and exhibits potent antiviral activity. Plasma viremia significantly declines and/or becomes undetectable in more than 75% of patients treated for >24 weeks. However, serum HBsAg concentrations remain unchanged. No selection of BLV resistance in HBV/HDV has been reported in vivo to date. BLV is administered subcutaneously once daily at doses between 2 and 10 mg. BLV received conditional approval in Europe in 2020 to treat chronic hepatitis delta. The advent of peginterferon lambda or new specific anti-HDV antivirals (lonafarnib, etc.) will open the door for combination therapies with BLV. Since there is no stable reservoir for HDV-RNA within infected hepato"
+    },
+    {
+      "pmid": "35028672",
+      "title": "[Bulevirtide as the first specific agent against hepatitis\u00a0D virus infections-mechanism and clinical effect].",
+      "authors": [
+        "Nkongolo S",
+        "Hollnberger J",
+        "Urban S"
+      ],
+      "journal": "Bundesgesundheitsblatt, Gesundheitsforschung, Gesundheitsschutz",
+      "pubdate": "2022 Feb",
+      "doi": "10.1007/s00103-022-03486-2",
+      "abstract": "Blocking the cell entry of pathogens is a\u00a0suitable approach to prevent new infections. However, the therapeutic use of entry inhibitors in chronically infected patients has had limited success. For the treatment of chronic hepatitis\u00a0D virus (HDV) infections, a\u00a0promising agent based on this mode of action, Bulevirtide (BLV), was conditionally approved in July 2020. Previously, no drugs were available for HDV, and treatment relied on off-label use of interferon alpha/peginterferon alpha (IFN\u03b1/Peg-IFN\u03b1). In this review, we provide an overview of the basic mechanism of action of BLV and summarize the clinical data available to date.HDV infection manifests as a\u00a0co-infection or superinfection of hepatitis\u00a0B virus (HBV) infections and affects 4.5-15% of HBV patients worldwide. HDV utilizes the envelope proteins of HBV for dissemination. BLV acts by blocking the HBV/HDV receptor sodium taurocholate co-transporting polypeptide (NTCP), preventing HBV/HDV entry into hepatocytes. BLV lowers HDV serum RNA levels and normalizes alanine aminotransferase (ALT) levels in HBV/HDV-infected individuals. It has an excellent safety profile, even when administered at high doses (10\u202fmg daily) for 48\u00a0weeks"
+    },
+    {
+      "pmid": "35752223",
+      "title": "Bulevirtide with or without pegIFN\u03b1 for patients with compensated chronic hepatitis delta: From clinical trials to real-world studies.",
+      "authors": [
+        "Lampertico P",
+        "Roulot D",
+        "Wedemeyer H"
+      ],
+      "journal": "Journal of hepatology",
+      "pubdate": "2022 Nov",
+      "doi": "10.1016/j.jhep.2022.06.010",
+      "abstract": "Chronic hepatitis D (CHD) is the most severe form of viral hepatitis, characterised by the greatest increase in risk of cirrhosis, hepatic decompensation and hepatocellular carcinoma. Pegylated-interferon-\u03b1 (pegIFN\u03b1), the only off-label therapeutic option, has been available for the last 30 years but is associated with suboptimal response rates and poor tolerability. Among the new treatment strategies under clinical evaluation, the entry inhibitor bulevirtide (BLV) is the only one that has received conditional approval from the European Medicines Agency (EMA); approval was granted in July 2020 for the treatment of adult patients with compensated CHD at a dose of 2\u00a0mg daily. Phase II studies and the week 24 interim analysis of a phase III study demonstrated the efficacy and safety of this treatment as a monotherapy or combined with pegIFN\u03b1. This favourable profile has been confirmed by recent real-world studies performed in Europe. As a long-term monotherapy, BLV has been successfully used to treat patients with advanced compensated cirrhosis. These encouraging yet preliminary findings must be viewed with caution as many critical issues related to this new antiviral strategy are sti"
+    },
+    {
+      "pmid": "37754293",
+      "title": "Bulevirtide for Chronic Hepatitis D.",
+      "authors": [
+        "Fu H",
+        "Liu Y",
+        "Liu Q"
+      ],
+      "journal": "The New England journal of medicine",
+      "pubdate": "2023 Sep 28",
+      "doi": "10.1056/NEJMc2309033",
+      "abstract": ""
+    },
+    {
+      "pmid": "37178738",
+      "title": "Bulevirtide for Chronic Hepatitis Delta.",
+      "authors": [
+        "Lens S"
+      ],
+      "journal": "Gastroenterology",
+      "pubdate": "2023 Dec",
+      "doi": "10.1053/j.gastro.2023.05.007",
+      "abstract": ""
+    }
+  ]
+}
