@@ -20,6 +20,8 @@ FDA-novel-newly-approved-analysis/
 │   ├── pubmed_api.py                            # PubMed database search and fetch wrapper
 │   ├── generate_report.py                       # Code to generate the FDA approvals list report
 │   └── format_apa.py                            # Reference compiler and formatter
+├── skills/                                      # Subfolder containing native agent skill configuration
+│   └── SKILL.md                                 # Skill configuration to run the pipeline natively
 └── example/                                     # Subfolder containing example reports
     ├── Ensitrelvir_International_Regulatory_Review_Report.md # Report for Ensitrelvir (COVID-19 PEP)
     └── bulevirtide-2026-05-22X2026-06-05.md     # Report for Bulevirtide (Hepatitis Delta)
