@@ -21,10 +21,10 @@ import re
 from datetime import datetime
 
 # Setup directories
-DEFAULT_WORKSPACE = "/Users/ahmadhidayat"
-DEFAULT_OUTPUT_DIR = os.path.join(DEFAULT_WORKSPACE, "claude-code", "output")
-CLINICAL_TRIALS_API_PATH = os.path.join(DEFAULT_WORKSPACE, ".agents", "skills", "clinical-trials-database", "scripts", "clinical_trials_api.py")
-PUBMED_API_PATH = os.path.join(DEFAULT_WORKSPACE, ".agents", "skills", "pubmed-database", "scripts", "pubmed_api.py")
+SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
+DEFAULT_OUTPUT_DIR = os.path.join(SCRIPT_DIR, "data")
+CLINICAL_TRIALS_API_PATH = os.path.join(SCRIPT_DIR, "scripts", "clinical_trials_api.py")
+PUBMED_API_PATH = os.path.join(SCRIPT_DIR, "scripts", "pubmed_api.py")
 
 # Pre-compiled database of H1 2026 innovative approvals as a robust fallback
 H1_2026_FALLBACK_DB = [

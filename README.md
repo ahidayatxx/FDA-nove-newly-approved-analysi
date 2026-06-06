@@ -16,6 +16,8 @@ FDA-nove-newly-approved-analysis/
 │   ├── bulevirtide-pipeline-data.json           # Consolidated pipeline data for Bulevirtide
 │   └── test_bulevirtide_trials.json             # Cached trials query data
 ├── scripts/                                     # Subfolder containing scratch & helper scripts
+│   ├── clinical_trials_api.py                   # ClinicalTrials.gov API wrapper
+│   ├── pubmed_api.py                            # PubMed database search and fetch wrapper
 │   ├── generate_report.py                       # Code to generate the FDA approvals list report
 │   └── format_apa.py                            # Reference compiler and formatter
 └── example/                                     # Subfolder containing example reports
@@ -35,6 +37,8 @@ FDA-nove-newly-approved-analysis/
 
 ### 2. Core Code & Scripts
 *   **[pipeline.py](file:///Users/ahmadhidayat/claude-code/projects/FDA-nove-newly-approved-analysis/pipeline.py)**: The main pipeline script. It performs web scraping of the FDA CDER portal, parses details of a selected drug, calls ClinicalTrials.gov and PubMed CLI wrappers via subprocesses, and aggregates the results.
+*   **[scripts/clinical_trials_api.py](file:///Users/ahmadhidayat/claude-code/projects/FDA-nove-newly-approved-analysis/scripts/clinical_trials_api.py)**: ClinicalTrials.gov API search client, wrapping the official endpoints to query trial details (Phase, Status, NCT ID) based on the generic active ingredient.
+*   **[scripts/pubmed_api.py](file:///Users/ahmadhidayat/claude-code/projects/FDA-nove-newly-approved-analysis/scripts/pubmed_api.py)**: PubMed database query and abstract extraction client, executing search/fetch operations for literature evidence.
 *   **[scripts/generate_report.py](file:///Users/ahmadhidayat/claude-code/projects/FDA-nove-newly-approved-analysis/scripts/generate_report.py)**: Helper script used to compile the raw HTML table scraped from the FDA into the structured Markdown table in the main report.
 *   **[scripts/format_apa.py](file:///Users/ahmadhidayat/claude-code/projects/FDA-nove-newly-approved-analysis/scripts/format_apa.py)**: Utility to parse, filter, and format clinical trials and literature metadata into APA 7th Edition style citations.
 
