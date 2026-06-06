@@ -1,6 +1,6 @@
 # FDA Novel Newly Approved Drug Analysis Project
 
-This project compiles the tools, scripts, raw data, and finalized regulatory reports focused on the U.S. FDA's novel drug and biologic approvals during the first half of 2026. The key showcase analysis features **Bulevirtide (Hepcludex)**, mapping it from initial FDA approval to clinical trial evidence and PubMed scientific literature to compile a robust review dossier for international regulatory authorities.
+This project compiles the tools, scripts, raw data, and finalized regulatory reports focused on the U.S. FDA's novel drug and biologic approvals during both the full year of 2025 and the first half of 2026. The key showcase analyses feature **Bulevirtide (Hepcludex)** and **Ensitrelvir (Xocova)**, mapping them from initial FDA approval to clinical trial evidence and PubMed scientific literature to compile robust review dossiers for international regulatory authorities.
 
 ---
 
